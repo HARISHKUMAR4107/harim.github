@@ -1,0 +1,159 @@
+<!DOCTYPE HTML>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Saas Homepage</title>
+        <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, Helvetica, sans-serif;
+        }        
+        body{
+            background:#f8fafc;
+            color: #0f172a;
+        }
+        .navbar{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 20px 70px;
+            background: white;
+        }
+        .logo{
+            color: rgb(49, 127, 244);
+            font-family: 'inter',sans-serif;
+            font-size: 24px;
+            font-weight: bold;
+        }
+        nav a{
+            text-decoration: none;
+            margin: 0 15px;
+            color: #3b3c3e;
+        }
+        nav a:hover{
+            color: #25;
+        }
+        .btn{
+            padding: 15px 20px;
+            border-radius: 8px;
+            color: white;
+            background: rgb(49, 127, 244);
+            border: none;
+        }
+        .primary {
+            background: #2563eb;
+            color: white;
+            border: none;
+            padding: 20px 40px;
+            border-radius: 8px;
+        }
+        .white {
+            background: white;
+            color: rgb(21, 21, 21);
+            padding: 15px 20px;
+        }
+        .white:hover{
+            background: #2563eb;
+            color: white;
+            cursor: pointer;
+        }
+        .hero{
+            text-align: center;
+            padding: 90px 20px;
+            border-radius: 8px;
+            background: radial-gradient(circle at top left, #84b2ef, transparent 60%),
+                        radial-gradient(circle at bottom right, #1c75e3, transparent 60%),
+                        linear-gradient(to bottom, #f8fafc, #ffffff);
+        }
+        .hero h1 {
+            font-size: 42px;
+            margin-bottom: 15px;
+        }
+
+        .hero p {
+            font-size: 18px;
+            color: #475569;
+            margin-bottom: 30px;
+        }
+        .features{
+            text-align: center;
+            padding: 90px 20px;
+        }
+        .card{
+           display: flex;
+            justify-content: center;
+            gap: 30px;
+        }
+        .cards
+        {
+            background: white;
+            padding: 30px;
+            width: 250px;
+            border-radius: 14px;
+            box-shadow: 0 12px 25px rgba(0,0,0,0.08);
+        }
+        .card h3 {
+            margin-bottom: 10px;
+        }
+        .cta{
+            text-align: center;
+            background: #4075e8;
+            padding: 70px 20px;
+            color: white;
+        }
+        .cta h2{
+            margin-bottom: 10px;
+        }
+        footer{
+            background: #011747;
+            color: white;
+            text-align: center;
+            margin-top: 5px;
+            padding: 20px;
+        }
+        </style>
+    </head>
+    <body>
+        <header class="navbar">
+            <div class="logo">Saasify</div>
+            <nav>
+                <a href="#features">Features</a>
+                <a href="#pricing">Pricing</a>
+                <a href="#contact">Contact</a>
+                <button class="btn">Get Started</button>
+            </nav>
+        </header>
+        <section class="hero">
+            <h1>Simple.Powerful.Saas.</h1>
+            <p><em>The easy way to manage and<br>grow your page.</em></p>
+            <button class="primary">Get Started</button>
+        </section>
+        <section class="features">
+            <h2>Features</h2>
+            <div class="card">
+                <div class="cards">
+                    <h3>🚀Fast Performance</h3>
+                    <p>Optimize your workflow</p>
+                </div>
+                <div class="cards">
+                    <h3>🔐Secure & Reliable</h3>
+                    <p>Keep your data safe</p>
+                </div>
+                <div class="cards">
+                    <h3>📊Analytics & Insights</h3>
+                    <p>Understand your metrics</p>
+                </div>
+            </div>
+        </section>
+        <section class="cta">
+            <h2>Ready to get started?</h2>
+            <button class="btn white">Get Started</button>
+        </section>
+        <footer>
+            <p>About 💠 Privacy 💠 Terms</p>
+            <p>©️2025Saasify. All rights reserved</p>
+        </footer>
+    </body>
+</html>
